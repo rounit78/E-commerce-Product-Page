@@ -1,0 +1,92 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product-image {
+    flex: 1 1 300px; /* Responsive flexbox sizing */
+    margin-right: 20px;
+}
+
+.product-info {
+    flex: 1 1 300px; /* Responsive flexbox sizing */
+}
+
+.product-info h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+.product-info p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.product-info h3 {
+    font-size: 1.4rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
